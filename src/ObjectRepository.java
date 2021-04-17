@@ -29,7 +29,7 @@ public class ObjectRepository {
         driver.findElement(By.xpath(obj.getProperty("facebook.username.xpath"))).
                 sendKeys("cwigney1995@gmail.com");
         driver.findElement(By.xpath(obj.getProperty("facebook.password.xpath"))).
-                sendKeys("PPBb1gred");
+                sendKeys("test");
         driver.findElement(By.xpath(obj.getProperty("facebook.login.xpath"))).click();
 
 
